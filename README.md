@@ -1,5 +1,10 @@
 # Obsidian Korean Spellchecker
 
+> [!WARNING]
+> 베타 버전으로 언제든 수정될 수 있습니다.
+
+## 서비스 제공자 고지 사항
+
 - 이 플러그인은 부산대학교 인공지능연구실과 (주)나라인포테크가 함께 제공하는 [한국어 맞춤법/문법 검사기](http://nara-speller.co.kr/speller/)를 활용합니다.
 - [한국어 맞춤법/문법 검사기](http://nara-speller.co.kr/speller/)는 부산대학교 인공지능연구실과 (주)나라인포테크가 함께 만들고 있습니다.
 - 이 검사기는 개인이나 학생만 무료로 사용할 수 있습니다.
@@ -11,3 +16,9 @@
 1. Obsidian 설정 - Community plugins에서 BRAT 플러그인을 설치하고 활성화 합니다.
 2. BRAT 플러그인의 Options에서 `Add Beta Plugin` 버튼을 클릭합니다.
 3. 대화 상자에서 Repository에 `https://github.com/x1brn/obsidian-korean-spellchecker`을 붙여 넣고 `Add Plugin` 버튼을 누릅니다.
+
+## 사용법
+
+1. 검사하고자 하는 텍스트를 블록 선택합니다.
+2. 커맨드 팔레트(Command + P 또는 Control + P)에서 `한국어 맞춤법/문법 검사기: Check Spelling`을 선택하여 실행합니다.
+3. 검사 결과 창에서 오류를 수정하고 적용합니다.
