@@ -1,0 +1,24 @@
+{
+  "name": "obsidian-korean-spellchecker",
+  "version": "0.1.0",
+  "description": "이 플러그인은 [한국어 맞춤법/문법 검사기](http://nara-speller.co.kr/speller/)를 활용합니다. 한국어 맞춤법/문법 검사기는 부산대학교 인공지능연구실과 (주)나라인포테크가 함께 만들고 있습니다. 이 검사기는 개인이나 학생만 무료로 사용할 수 있습니다.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "version": "node version-bump.mjs && git add manifest.json versions.json"
+  },
+  "keywords": [],
+  "author": "x1brn",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "5.29.0",
+    "@typescript-eslint/parser": "5.29.0",
+    "builtin-modules": "3.3.0",
+    "esbuild": "0.17.3",
+    "obsidian": "latest",
+    "tslib": "2.4.0",
+    "typescript": "4.7.4"
+  }
+}
