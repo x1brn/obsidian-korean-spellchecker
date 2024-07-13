@@ -1,4 +1,4 @@
-# Obsidian Korean Spellchecker
+# Obsidian 한국어 맞춤법/문법 검사기
 
 > [!WARNING]
 > 이 플러그인은 현재 베타 버전입니다. 언제든 수정될 수 있습니다.
